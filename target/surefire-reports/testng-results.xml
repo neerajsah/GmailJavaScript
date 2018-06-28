@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GmailJS" duration-ms="35272" started-at="2018-06-28T02:58:08Z" finished-at="2018-06-28T02:58:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="35272" started-at="2018-06-28T02:58:08Z" finished-at="2018-06-28T02:58:43Z">
+      <class name="GmailJS">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:GmailJS@36d64342]" name="launchBrowser" is-config="true" duration-ms="5960" started-at="2018-06-28T08:28:08Z" finished-at="2018-06-28T08:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:GmailJS@36d64342]" name="login" duration-ms="12444" started-at="2018-06-28T08:28:13Z" finished-at="2018-06-28T08:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="unread()[pri:0, instance:GmailJS@36d64342]" name="unread" duration-ms="4476" started-at="2018-06-28T08:28:26Z" depends-on-methods="GmailJS.login" finished-at="2018-06-28T08:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unread -->
+        <test-method status="PASS" signature="readmails()[pri:0, instance:GmailJS@36d64342]" name="readmails" duration-ms="428" started-at="2018-06-28T08:28:30Z" depends-on-methods="GmailJS.unread" finished-at="2018-06-28T08:28:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readmails -->
+        <test-method status="PASS" signature="unreadAgain()[pri:0, instance:GmailJS@36d64342]" name="unreadAgain" duration-ms="9242" started-at="2018-06-28T08:28:31Z" depends-on-methods="GmailJS.readmails" finished-at="2018-06-28T08:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unreadAgain -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:GmailJS@36d64342]" name="closeBrowser" is-config="true" duration-ms="2706" started-at="2018-06-28T08:28:40Z" finished-at="2018-06-28T08:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- GmailJS -->
+    </test> <!-- Command line test -->
+  </suite> <!-- GmailJS -->
+</testng-results>
