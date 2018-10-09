@@ -28,7 +28,7 @@ public class GmailLogin
         Thread.sleep(5000);
         
         element = (WebElement) js.executeScript("return document.querySelector('input[type = \"password\"]');");
-        element.sendKeys("lovenks@11");
+        element.sendKeys("password");
         js.executeScript("return document.getElementById('passwordNext').click();");
         Thread.sleep(2000);
        
